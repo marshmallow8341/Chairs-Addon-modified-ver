@@ -1,0 +1,37 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "[1.21.100]Chairs Addon modified ver",
+        "description": "Delete /sit creation:pyuagotto modified:marshmallow",
+        "uuid": "c78a6537-cde4-4475-ba34-d11c4ce7e355",
+        "version": [
+            0,
+            1,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            40
+        ]
+    },
+    "modules": [
+        {
+            "description": "GameTest module",
+            "type": "script",
+            "uuid": "1c652ca4-0330-493b-97bc-ccf40a2bc871",
+            "version": [
+                0,
+                1,
+                0
+            ],
+            "entry": "scripts/index.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.1.0"
+        }
+    ]
+}
